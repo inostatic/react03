@@ -1,0 +1,121 @@
+.wrapper {
+    background: white;
+    width: 768px;
+    margin: 0 auto;
+    min-height: 828px;
+}
+
+.wrapper h1 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.content img {
+    margin: 10px 0;
+    width: 229px;
+    height: 142px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+    /*transition: background .2s ease-in;*/
+}
+
+.modal-window {
+    width: 619px;
+    height: 425px;
+    background: #fff;
+    margin: 300px auto;
+    transform: translateY(-200px);
+    transition: transform .2s ease-in;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    z-index: 1000;
+}
+
+.modal-window-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+.modal-window-left img{
+    width: 350px;
+
+  }
+
+.modal-window-left form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal-window-left form input {
+    height: 30px;
+    margin-top: 35px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.modal-window-left form input::placeholder {
+    color: #CCCCCC;
+    padding: 0 0 0 10px;
+}
+
+
+
+.comment_date {
+    font-size: 13px;
+    color: #999999;
+}
+.comment_text {
+    font-size: 13px;
+    font-family: Roboto;
+
+}
+
+.modal-window-left form button {
+    height: 30px;
+    margin-top: 35px;
+    background: #4997D0;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-window-right {
+    display: flex;
+
+}
+
+.modal-window-right .comment {
+    margin: 0 0 20px 14px;
+}
+
+
+
+.x {
+    width: 18px;
+    height: 18px;
+    margin-right: -10px;
+    margin-top: -35px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
