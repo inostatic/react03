@@ -53,3 +53,14 @@ export const Home = ({photos, comments}) => {
         </div>
     )
 }
+// useEffect( () => {
+//     console.log(photos)
+//     if(photos.length === 0) {
+//     Axios().then( response => {
+//
+//         setPreload(!preload)
+//         setPhotos(response.data)
+//
+//     })
+//         }
+// }, [photos])
